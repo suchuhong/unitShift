@@ -1,0 +1,183 @@
+好的，这里为您整理了“各种单位换算关键词”，主要以中文关键词为主，并辅以英文对应词或概念说明，方便您理解和扩展。
+
+## 常用和通用单位换算关键词
+
+这些是用户在寻找单位换算工具时可能会使用的通用词汇。
+
+* **单位换算** (Unit conversion)
+* **单位换算器** (Unit converter)
+* **在线单位换算** (Online unit conversion)
+* **免费单位换算器** (Free unit converter)
+* **计量单位换算** (Measurement unit conversion)
+* **国际单位换算** (International unit conversion)
+* **公制单位换算** (Metric unit conversion)
+* **英制单位换算** (Imperial unit conversion)
+* **单位转换** (Unit transformation/conversion)
+* **换算器** (Converter / Calculator)
+* **单位查询** (Unit query)
+* **单位换算大全** (Comprehensive unit conversion)
+* **单位换算表** (Unit conversion table)
+* **单位换算公式** (Unit conversion formula - 可用于内容营销)
+* **常用单位换算** (Common unit conversions)
+* **工程单位换算** (Engineering unit conversion)
+* **物理单位换算** (Physics unit conversion)
+
+---
+
+## 具体单位类型换算关键词
+
+### 1. 长度单位换算 (Length Unit Conversion) 📏
+
+* **长度换算 / 长度单位换算 / 长度转换器** (Length conversion / Length unit converter)
+* 米转厘米 (m to cm)
+* 厘米转米 (cm to m)
+* 米转毫米 (m to mm)
+* 千米转米 (km to m)
+* 米转英寸 (m to inches)
+* 英寸转米 (inches to m)
+* 厘米转英寸 (cm to inches)
+* 英寸转厘米 (inches to cm)
+* 英尺转米 (feet to m)
+* 米转英尺 (m to feet)
+* 码转米 (yard to m)
+* 英里转公里 (miles to km)
+* 公里转英里 (km to miles)
+* 海里换算 (Nautical mile conversion)
+* 光年换算 (Light-year conversion)
+* 市尺换算 / 寸转厘米 (Chinese foot conversion / Cun to cm)
+
+### 2. 重量/质量单位换算 (Weight/Mass Unit Conversion) ⚖️
+
+* **重量换算 / 质量换算 / 重量转换器** (Weight conversion / Mass converter)
+* 千克转克 (kg to g)
+* 克转千克 (g to kg)
+* 千克转磅 (kg to pounds / kg to lbs)
+* 磅转千克 (pounds to kg / lbs to kg)
+* 克转盎司 (g to ounces / g to oz)
+* 盎司转克 (ounces to g / oz to g)
+* 吨转千克 (ton to kg)
+* 斤转公斤 (jin to kg - 常见于中文语境)
+* 公斤转斤 (kg to jin)
+* 磅转克 (lbs to g)
+* 毫克换算 (mg conversion)
+
+### 3. 面积单位换算 (Area Unit Conversion) 🗺️
+
+* **面积换算 / 面积单位换算 / 面积转换器** (Area conversion / Area unit converter)
+* 平方米转平方厘米 (sqm to sqcm / m² to cm²)
+* 平方米转平方英尺 (sqm to sqft / m² to ft²)
+* 平方英尺转平方米 (sqft to sqm / ft² to m²)
+* 平方公里转公顷 (sqkm to hectare / km² to ha)
+* 公顷转平方米 (hectare to sqm / ha to m²)
+* 英亩转平方米 (acre to sqm)
+* 亩转平方米 (mu to sqm - 常见于中文语境)
+* 平方码换算 (Square yard conversion)
+
+### 4. 体积/容积单位换算 (Volume/Capacity Unit Conversion) 🧪
+
+* **体积换算 / 容积换算 / 体积转换器** (Volume conversion / Capacity converter)
+* 立方米转立方厘米 (cubic meter to cubic cm / m³ to cm³)
+* 升转毫升 (Liters to milliliters / L to mL)
+* 毫升转升 (mL to L)
+* 升转加仑 (Liters to gallons)
+* 加仑转升 (Gallons to Liters)
+* 立方英尺转立方米 (cubic feet to cubic meters / ft³ to m³)
+* 品脱换算 (Pint conversion)
+* 夸脱换算 (Quart conversion)
+* 液量盎司换算 (Fluid ounce conversion)
+
+### 5. 温度单位换算 (Temperature Unit Conversion) 🌡️
+
+* **温度换算 / 温度单位换算 / 温度转换器** (Temperature conversion / Temperature unit converter)
+* 摄氏度转华氏度 (°C to °F / Celsius to Fahrenheit)
+* 华氏度转摄氏度 (°F to °C / Fahrenheit to Celsius)
+* 摄氏度转开尔文 (°C to K / Celsius to Kelvin)
+* 开尔文转摄氏度 (K to °C / Kelvin to Celsius)
+
+### 6. 速度单位换算 (Speed Unit Conversion) 🚀
+
+* **速度换算 / 速度单位换算 / 速度转换器** (Speed conversion / Speed unit converter)
+* 米/秒转公里/小时 (m/s to km/h)
+* 公里/小时转米/秒 (km/h to m/s)
+* 英里/小时转公里/小时 (mph to km/h)
+* 公里/小时转英里/小时 (km/h to mph)
+* 节换算 (Knot conversion)
+* 马赫换算 (Mach conversion)
+
+### 7. 时间单位换算 (Time Unit Conversion) ⏱️
+
+* **时间换算 / 时间单位换算 / 时间转换器** (Time conversion / Time unit converter)
+* 秒转分钟 (seconds to minutes)
+* 分钟转小时 (minutes to hours)
+* 毫秒转秒 (ms to s)
+* 周转天 (weeks to days)
+* 时间戳转换 (Timestamp conversion - 如果您的工具包含此类功能)
+
+### 8. 数据存储单位换算 (Data Storage Unit Conversion) 💾
+
+* **数据存储换算 / 存储单位换算 / 存储转换器** (Data storage conversion / Storage unit converter)
+* KB转MB (Kilobytes to Megabytes)
+* MB转GB (Megabytes to Gigabytes)
+* GB转TB (Gigabytes to Terabytes)
+* 比特转字节 (bits to Bytes)
+* Bytes转KB (Bytes to KB)
+
+### 9. 压力单位换算 (Pressure Unit Conversion) 💨
+
+* **压力换算 / 压力单位换算 / 压力转换器** (Pressure conversion / Pressure unit converter)
+* 帕斯卡转千帕 (Pa to kPa)
+* 千帕转帕 (kPa to Pa)
+* 巴转毫巴 (bar to mbar)
+* 标准大气压换算 (atm conversion)
+* PSI换算 (PSI conversion / 磅/平方英寸)
+* 毫米汞柱换算 (mmHg conversion)
+
+### 10. 能量/功单位换算 (Energy/Work Unit Conversion) 🔥
+
+* **能量换算 / 功单位换算 / 能量转换器** (Energy conversion / Work unit converter)
+* 焦耳转千焦 (Joule to Kilojoule / J to kJ)
+* 卡路里转千焦 (calorie to kJ)
+* 千卡转焦耳 (kcal to Joule)
+* 千瓦时换算 (kWh conversion / 度电换算)
+* BTU换算 (British Thermal Unit conversion)
+
+### 11. 功率单位换算 (Power Unit Conversion) ⚡
+
+* **功率换算 / 功率单位换算 / 功率转换器** (Power conversion / Power unit converter)
+* 瓦特转千瓦 (Watt to Kilowatt / W to kW)
+* 千瓦转瓦特 (kW to W)
+* 马力换算 (Horsepower conversion / hp)
+* 匹数换算 (P数换算 - 空调等)
+
+### 12. 角度单位换算 (Angle Unit Conversion) 📐
+
+* **角度换算 / 角度单位换算 / 角度转换器** (Angle conversion / Angle unit converter)
+* 度转弧度 (Degrees to Radians)
+* 弧度转度 (Radians to Degrees)
+* 梯度换算 (Gradian conversion)
+
+### 13. 频率单位换算 (Frequency Unit Conversion) 📡
+
+* **频率换算 / 频率单位换算 / 频率转换器** (Frequency conversion / Frequency unit converter)
+* 赫兹转千赫 (Hz to kHz)
+* 千赫转兆赫 (kHz to MHz)
+
+### 14. 燃油效率/油耗单位换算 (Fuel Efficiency/Consumption Conversion) ⛽
+
+* **油耗换算 / 燃油效率转换器** (Fuel consumption conversion / Fuel efficiency converter)
+* 升/百公里 转 英里/加仑 (L/100km to MPG)
+* 英里/加仑 转 升/百公里 (MPG to L/100km)
+* 公里/升 换算 (km/L conversion)
+
+---
+
+**关键词选择和使用建议：**
+
+* **核心功能优先：** 确保您网站上实际拥有的换算功能都有对应的关键词覆盖。
+* **长尾关键词：** 组合具体的单位和换算需求，例如“在线将摄氏温度转换为华氏温度工具”。
+* **问题式关键词：** 例如“1英寸等于多少厘米？”、“如何换算公斤和磅？”。这类关键词可以用于FAQ页面或博客内容，吸引用户。
+* **本地化考虑：** 如果您的目标用户包含特定地区，可以考虑加入地区常用但国际上不常用的单位，如中国的“斤”、“亩”。
+* **工具词结合：** 将单位名称与“换算器”、“计算器”、“在线工具”、“表格”等结合。
+* **用户意图：** 思考用户搜索这些词时的具体需求，确保您的工具页面直接满足他们。
+
+希望这份详细的关键词列表对您的工具站有所帮助！

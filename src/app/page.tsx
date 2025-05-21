@@ -2,14 +2,81 @@
 
 import Link from "next/link"
 import { Search } from "lucide-react"
+import { useState } from "react"
+import { useRouter } from "next/navigation"
 
 import { CategoryCard } from "@/components/converter/category-card"
 import { PopularConversion } from "@/components/converter/popular-conversion"
-import { CATEGORIES } from "@/lib/constants"
+import { CATEGORIES, UNIT_SYSTEMS } from "@/lib/constants"
 import { generateJsonLd } from "@/components/seo/metadata"
+import { Button } from "@/components/ui/button"
 
 export default function HomePage() {
   const jsonLd = generateJsonLd('home')
+  const router = useRouter()
+  const [searchTerm, setSearchTerm] = useState("")
+  const [searchResults, setSearchResults] = useState<Array<{
+    category: string;
+    categoryName: string;
+    fromUnit: string;
+    fromUnitName: string;
+    toUnit: string;
+    toUnitName: string;
+  }>>([])
+  const [isSearching, setIsSearching] = useState(false)
+  
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault()
+    
+    if (!searchTerm.trim()) {
+      setSearchResults([])
+      setIsSearching(false)
+      return
+    }
+    
+    setIsSearching(true)
+    const results: Array<{
+      category: string;
+      categoryName: string;
+      fromUnit: string;
+      fromUnitName: string;
+      toUnit: string;
+      toUnitName: string;
+    }> = []
+    
+    // Search through all categories and units
+    CATEGORIES.forEach(category => {
+      const units = UNIT_SYSTEMS[category.id] || {}
+      const unitList = Object.values(units)
+      
+      // Search for matches in unit names
+      unitList.forEach(fromUnit => {
+        unitList.forEach(toUnit => {
+          if (fromUnit.id === toUnit.id) return
+          
+          const searchString = `${fromUnit.name}转${toUnit.name} ${category.name} ${fromUnit.name} ${toUnit.name}`
+          if (searchString.toLowerCase().includes(searchTerm.toLowerCase())) {
+            results.push({
+              category: category.id,
+              categoryName: category.name,
+              fromUnit: fromUnit.id,
+              fromUnitName: fromUnit.name,
+              toUnit: toUnit.id,
+              toUnitName: toUnit.name
+            })
+          }
+        })
+      })
+    })
+    
+    setSearchResults(results.slice(0, 10)) // Limit to 10 results
+  }
+  
+  const clearSearch = () => {
+    setSearchTerm("")
+    setSearchResults([])
+    setIsSearching(false)
+  }
   
   return (
     <div className="container max-w-7xl py-8 space-y-12">
@@ -28,17 +95,73 @@ export default function HomePage() {
           免费、快速、精确的在线单位换算工具，支持长度、重量、温度、面积等各种单位转换
         </p>
         
-        {/* Search Box - UI only, not functional in this demo */}
-        <div className="flex max-w-md mx-auto relative">
-          <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-            <Search className="h-5 w-5 text-muted-foreground" />
+        {/* Search Box - Now functional */}
+        <form onSubmit={handleSearch} className="max-w-md mx-auto">
+          <div className="flex relative">
+            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <Search className="h-5 w-5 text-muted-foreground" />
+            </div>
+            <input
+              type="text"
+              placeholder="搜索单位换算，例如：米转厘米，千克转磅..."
+              className="flex h-12 w-full rounded-md border border-input bg-background px-3 py-2 pl-10 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+            <Button 
+              type="submit" 
+              className="ml-2"
+              disabled={!searchTerm.trim()}
+            >
+              搜索
+            </Button>
           </div>
-          <input
-            type="text"
-            placeholder="搜索单位换算，例如：米转厘米，千克转磅..."
-            className="flex h-12 w-full rounded-md border border-input bg-background px-3 py-2 pl-10 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-          />
-        </div>
+        </form>
+        
+        {/* Search Results */}
+        {isSearching && (
+          <div className="max-w-2xl mx-auto mt-4">
+            {searchResults.length > 0 ? (
+              <div className="bg-card rounded-lg border p-4 shadow-sm">
+                <div className="flex justify-between items-center mb-3">
+                  <h3 className="font-medium">搜索结果</h3>
+                  <Button 
+                    variant="ghost" 
+                    size="sm" 
+                    onClick={clearSearch}
+                  >
+                    清除
+                  </Button>
+                </div>
+                <ul className="space-y-2">
+                  {searchResults.map((result, index) => (
+                    <li key={index}>
+                      <Link 
+                        href={`/${result.category}/${result.fromUnit}/${result.toUnit}`}
+                        className="block hover:bg-muted p-2 rounded-md transition-colors"
+                      >
+                        <span className="font-medium">{result.fromUnitName}转{result.toUnitName}</span>
+                        <span className="text-muted-foreground text-sm ml-2">({result.categoryName})</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : (
+              <div className="text-muted-foreground text-center p-4">
+                没有找到匹配的结果，请尝试不同的搜索词
+                <Button 
+                  variant="ghost" 
+                  size="sm" 
+                  onClick={clearSearch}
+                  className="ml-2"
+                >
+                  清除
+                </Button>
+              </div>
+            )}
+          </div>
+        )}
       </section>
 
       {/* Categories Grid */}

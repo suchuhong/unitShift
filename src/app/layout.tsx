@@ -32,7 +32,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="relative flex min-h-screen flex-col">
-            <Header />
+            <Header>
+              <meta name="google-site-verification" content="NvqHulKH7pDkDPvWTix9ED4rG8FBJsfyWppzUqd-X-M" />
+            </Header>
             <main className="flex-1">{children}</main>
             <Footer />
           </div>

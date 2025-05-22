@@ -57,6 +57,7 @@ export function Header() {
           </Button>
         </div>
       </div>
+      <meta name="google-site-verification" content="NvqHulKH7pDkDPvWTix9ED4rG8FBJsfyWppzUqd-X-M" />
     </header>
   )
 } 
